@@ -36,7 +36,7 @@ const slides = [
 
 export default function HeroBanner() {
   return (
-    <section className={`relative w-full h-56 md:h-80 my-6 rounded-lg overflow-hidden ${styles.swiper_container}`}>
+    <section className={`relative w-full h-56 md:h-80 rounded-lg overflow-hidden ${styles.swiper_container}`}>
       <Swiper
         spaceBetween={30}
         centeredSlides={true}

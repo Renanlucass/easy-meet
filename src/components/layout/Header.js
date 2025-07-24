@@ -6,11 +6,11 @@ import { useState } from 'react';
 import { Search, Heart, ShoppingCart, User, Menu, X } from 'lucide-react';
 
 const navLinks = [
-  { name: 'Informações', href: '/info' },
-  { name: 'Cupons', href: '/coupons' },
-  { name: 'Categoria', href: '/categories' },
-  { name: 'Suporte', href: '/support' },
-  { name: 'Contato', href: '/contact' },
+  { name: 'INFORMAÇÕES', href: '/info' },
+  { name: 'CUPONS', href: '/coupons' },
+  { name: 'CATEGORIA', href: '/categories' },
+  { name: 'SUPORTE', href: '/support' },
+  { name: 'CONTATO', href: '/contact' },
 ];
 
 const userLinks = [
