@@ -15,11 +15,11 @@ export default function IndexPage() {
             <span className="font-bold text-lg text-white">EasyMeet</span>
           </Link>
           <div className="flex items-center gap-4">
-            <Link href="/login" className="flex items-center gap-2 text-white font-semibold text-sm p-2 rounded-full hover:bg-white/10 transition-colors">
+            <Link href="/auth/login" className="flex items-center gap-2 text-white font-semibold text-sm p-2 rounded-full hover:bg-white/10 transition-colors">
               <LogIn size={18} />
               <span className="hidden sm:inline">Entrar</span>
             </Link>
-            <Link href="/register" className="bg-white text-red-700 font-bold text-sm py-2 px-4 rounded-md hover:bg-gray-200 transition-colors">
+            <Link href="/auth/cadastro" className="bg-white text-red-700 font-bold text-sm py-2 px-4 rounded-md hover:bg-gray-200 transition-colors">
               Criar Conta
             </Link>
           </div>
