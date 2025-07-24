@@ -46,7 +46,7 @@ export default function IndexPage() {
           </div>
         </section>
 
-        <HeroBanner/>
+        <HeroBanner />
 
         <section className="bg-[#78333E] text-white py-12">
           <div className="container mx-auto px-6 text-center">
@@ -59,11 +59,14 @@ export default function IndexPage() {
           </div>
         </section>
       </main>
-      <footer className="bg-[#78333E] ">
-        <div className="container mx-auto py-6 px-6 text-center text-gray-200">
-          <p>&copy; {currentYear} EasyMeet. Todos os direitos reservados.</p>
+      <footer className="bg-gradient-to-r from-[#78333E] to-[#5e262f] border-t-4 border-[#9e4b57] shadow-inner">
+        <div className="container mx-auto py-8 px-6 text-center text-gray-100">
+          <p className="text-lg font-semibold tracking-wide">
+            &copy; {currentYear} <span className="text-white font-bold">EasyMeet</span>. Todos os direitos reservados.
+          </p>
         </div>
       </footer>
+
     </div>
   );
 }
