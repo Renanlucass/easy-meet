@@ -1,4 +1,3 @@
-// src/components/ui/Button.js
 export default function Button({ type = 'submit', children, fullWidth = false }) {
   const widthClass = fullWidth ? 'w-full' : '';
 

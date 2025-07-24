@@ -1,4 +1,3 @@
-// src/components/ui/Input.js
 export default function Input({ id, label, type = 'text', placeholder, ...props }) {
   return (
     <div>
