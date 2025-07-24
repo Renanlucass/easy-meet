@@ -1,0 +1,31 @@
+.swiper_container :global(.swiper-pagination-bullet) {
+  background-color: white;
+  opacity: 0.7;
+}
+
+.swiper_container :global(.swiper-pagination-bullet-active) {
+  background-color: #ef4444;
+  opacity: 1;
+}
+
+.swiper_container :global(.swiper-button-next),
+.swiper_container :global(.swiper-button-prev) {
+  color: white;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+  transform: scale(0.8);
+}
+
+.swiper_container :global(.swiper-button-next:hover),
+.swiper_container :global(.swiper-button-prev:hover) {
+  opacity: 1;
+}
+
+
+.swiper_container :global(.swiper-button-next) {
+  right: -2px; 
+}
+
+.swiper_container :global(.swiper-button-prev) {
+  left: -2px; 
+}
