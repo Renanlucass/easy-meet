@@ -2,16 +2,13 @@
 
 import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
-import { LayoutGrid, Compass, User, Store, Beef, ChefHat, CookingPot, BookOpen, Star, Heart, Ticket, LifeBuoy, Info, Phone, ChevronDown } from 'lucide-react';
+import { LayoutGrid, Compass, User, Store, Beef, ChefHat, CookingPot, BookOpen, Star, Heart, Ticket, LifeBuoy, ChevronDown } from 'lucide-react';
 
 const mobileOnlyLinks = [
   { name: 'Minha Conta', href: '/account', icon: User },
   { name: 'Meus Favoritos', href: '/favorites', icon: Heart },
-  { name: 'INFORMAÇÕES', href: '/info', icon: Info },
-  { name: 'CUPONS', href: '/coupons', icon: Ticket },
-  { name: 'CATEGORIA', href: '/categories', icon: Beef },
-  { name: 'SUPORTE', href: '/support', icon: LifeBuoy },
-  { name: 'CONTATO', href: '/contact', icon: Phone },
+  { name: 'Cupons', href: '/coupons', icon: Ticket },
+  { name: 'Categoria', href: '/categories', icon: Beef },
 ];
 
 const mainSections = [
